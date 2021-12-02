@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Account.h
+string
+-
+vector
+-
+
+/mnt/c/Users/ps/Downloads/narjes/programming/second/src/account.cpp
+Account.h
+/mnt/c/Users/ps/Downloads/narjes/programming/second/src/Account.h
+iostream
+-
+string
+-
+vector
+-
+
+/mnt/c/Users/ps/Downloads/narjes/programming/second/src/main.cpp
+iostream
+-
+Account.h
+/mnt/c/Users/ps/Downloads/narjes/programming/second/src/Account.h
+string
+-
+
